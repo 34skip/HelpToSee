@@ -1,0 +1,50 @@
+/* pages/movie/movie.wxss */
+.listWrap{
+   display: flex;
+  align-items: flex-start;
+  padding: 10rpx 40rpx;
+  box-sizing: border-box
+}
+.leftWrap{
+  /* float: left; */
+}
+.imgSty{
+  width: 160rpx;
+  height: 220rpx
+}
+.rightWrap{
+  /* float: left; */
+  width: 510rpx;
+  padding:0 20rpx;
+  box-sizing: border-box;
+}
+.title{
+  display: block;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.type{
+  display: block;
+  font-size: 26rpx;
+  color:#777777;
+}
+.score{
+  display: block;
+  font-size: 30rpx;
+}
+.point{
+  color: #f1a95d
+}
+.director{
+  display: block;
+  font-size: 26rpx;
+  color:#777777;
+}
+.star{
+  display: block;
+  font-size: 26rpx;
+  color:#777777;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}

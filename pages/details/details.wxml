@@ -1,0 +1,8 @@
+<!--pages/details/details.wxml-->
+<view>
+  <text>4/4/周三</text>
+  <text>4/4/周三</text>
+  <text>4/4/周三</text>
+  <text>4/4/周三</text>
+  <text>4/4/周三</text>
+</view>

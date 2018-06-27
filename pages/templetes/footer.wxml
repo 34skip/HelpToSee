@@ -1,0 +1,6 @@
+<template name="footer">
+this is footer
+</template>
+<template name="footer1">
+this is footer1
+</template>

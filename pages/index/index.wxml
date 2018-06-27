@@ -1,0 +1,22 @@
+<!--index.wxml-->
+  <!-- <include src="../.././components/tabber/index" />   -->
+  <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <!-- <view>
+    <text  bindtap="gocut">图片测试</text>
+  </view> -->
+   <!-- <image wx:for="{{tempFilePaths}}" wx:for-item="tempFilePath" bindtap='showimg' class='addimg' src="{{tempFilePath}}" ></image> 
+      <text>{{tempFilePaths.length}}</text> -->
+    <view class="usermotto">
+    <text bindtap="gohome" class="user-motto">点击开始</text>
+  </view>
+</view>
+ <!-- <component-tag-name inner-text="Some text"></component-tag-name> -->
+ <!-- <import src="../.././components/tabber/index" />  -->
+ <!-- <template is='footer' />  -->

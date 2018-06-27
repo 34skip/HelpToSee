@@ -1,0 +1,26 @@
+<view class='headwrap'>
+  <!-- <image class='banner' src='http://ozfrvjgew.bkt.clouddn.com/123.jpg'></image> -->
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item style="background:url({{item}});background-repeat: no-repeat;background-size:100% 200px; ">
+    </swiper-item>
+  </block>
+</swiper>
+  <scroll-view class='list' wx:for='{{arr}}'>
+    <view class='listTopBar'>
+      <view class='headLeft'>
+        <view class='headImg'></view>  
+        <text class='headName'>名字名字</text>  
+        <text class='headTitle'>标题</text>  
+      </view>
+      <view class='morePoint'>
+        <view class='topbarPoint'></view>
+        <view class='topbarPoint'></view>
+        <view class='topbarPoint'></view>
+      </view>
+    </view>
+    <text class='listContant'>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+    </text>
+  </scroll-view>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/movie/movie.wxml-->
+<!-- <text>pages/movie/movie.wxml</text> -->
+<button bindtap='draw' class="weui-btn" type="default">帮帮看</button>
+<scroll-view bindtap='godetils' class='list' wx:for='{{arr}}'  wx:for-index="idx" wx:for-item="item">
+  <view class="listWrap">
+    <view class="leftWrap">
+      <image class='imgSty' src="{{item.img}}" ></image>
+    </view>
+    <view class="rightWrap">
+        <text class="title">{{item.title}}</text>
+        <text class="score">评分：<text class="point">{{item.score}}</text></text>
+        <text class="type">类型：{{item.mtype}}</text>
+        <text class="director">导演：{{item.director}}</text>
+        <text class="star">主演：{{item.star}}</text> 
+    </view>
+  </view>
+</scroll-view>
